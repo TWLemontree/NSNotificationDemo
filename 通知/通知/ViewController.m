@@ -6,6 +6,11 @@
 //  Copyright © 2017年 csip. All rights reserved.
 //
 
+
+/*
+    该VC演示的是通知的基本用法，而下面的GCDViewController演示的是通知与多线程的联合使用
+*/
+
 #import "ViewController.h"
 
 @interface ViewController ()

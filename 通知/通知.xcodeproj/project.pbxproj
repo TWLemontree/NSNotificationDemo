@@ -15,6 +15,7 @@
 		E7E5C8EC1E5138BA00D903F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E5C8EA1E5138BA00D903F7 /* LaunchScreen.storyboard */; };
 		E7E5C8F71E5138BB00D903F7 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5C8F61E5138BB00D903F7 /* __Tests.m */; };
 		E7E5C9021E5138BB00D903F7 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5C9011E5138BB00D903F7 /* __UITests.m */; };
+		E7E5C9371E519AAA00D903F7 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5C9361E519AAA00D903F7 /* GCDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E7E5C8FD1E5138BB00D903F7 /* 通知UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "通知UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E5C9011E5138BB00D903F7 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		E7E5C9031E5138BB00D903F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E5C9351E519AAA00D903F7 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		E7E5C9361E519AAA00D903F7 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E7E5C8EA1E5138BA00D903F7 /* LaunchScreen.storyboard */,
 				E7E5C8ED1E5138BA00D903F7 /* Info.plist */,
 				E7E5C8DC1E5138BA00D903F7 /* Supporting Files */,
+				E7E5C9351E519AAA00D903F7 /* GCDViewController.h */,
+				E7E5C9361E519AAA00D903F7 /* GCDViewController.m */,
 			);
 			path = "通知";
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				E7E5C8E41E5138BA00D903F7 /* ViewController.m in Sources */,
 				E7E5C8E11E5138BA00D903F7 /* AppDelegate.m in Sources */,
 				E7E5C8DE1E5138BA00D903F7 /* main.m in Sources */,
+				E7E5C9371E519AAA00D903F7 /* GCDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +520,7 @@
 				E7E5C9081E5138BB00D903F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E5C9091E5138BB00D903F7 /* Build configuration list for PBXNativeTarget "通知Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				E7E5C90B1E5138BB00D903F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7E5C90C1E5138BB00D903F7 /* Build configuration list for PBXNativeTarget "通知UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				E7E5C90E1E5138BB00D903F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
